@@ -5,6 +5,11 @@ terraform {
             version = "~> 5.0"
         }
     }
+    backend "s3" {
+        bucket = "s3terraformtaskstorage"
+        region = "us-east-1"
+        key    = "storage/statefile"
+    }
 }
 
 module "networking_module" {
