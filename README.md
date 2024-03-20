@@ -15,3 +15,6 @@ terraform init and terraform apply = used to initialize the working directory an
 
 ![the 3 instances running ](https://github.com/iancumatei67/terraform/assets/127155074/62797232-d633-49a4-865d-70b3697638e6)
 
+# S3 bucket containing the statefile
+
+![Uploading s3 bucket with statefile.png…]()
