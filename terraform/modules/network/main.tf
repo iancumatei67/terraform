@@ -129,7 +129,7 @@ resource "aws_security_group" "my_sg_for_ec2" {
     protocol = var.protocol
     from_port = var.port_http
     to_port = var.port_http
-    security_groups = [aws_security_group.my_sg.id]
+    cidr_blocks = [var.cidr_block_route]
   }
 
   egress {
