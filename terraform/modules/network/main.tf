@@ -104,15 +104,6 @@ resource "aws_security_group" "my_sg" {
     cidr_blocks = [var.cidr_block_route]
     ipv6_cidr_blocks = [var.cidr_block_ipv6]
   }
-  
-  ingress {
-    description = "Allow https request from anywhere"
-    protocol = var.protocol
-    from_port = var.port_https
-    to_port = var.port_https
-    cidr_blocks = [var.cidr_block_route]
-    ipv6_cidr_blocks = [var.cidr_block_ipv6]
-  }
 
   egress {
     from_port = var.port_egres
