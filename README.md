@@ -17,4 +17,5 @@ terraform init and terraform apply = used to initialize the working directory an
 
 # S3 bucket containing the statefile
 
-![Uploading s3 bucket with statefile.png…]()
+<img width="1783" alt="s3 bucket with statefile" src="https://github.com/iancumatei67/terraform/assets/127155074/7977316c-ade2-4bf5-9027-e1f10b617171">
+
